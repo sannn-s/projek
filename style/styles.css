@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Quicksand',sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff5733;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: sticky ;
+    top: 0%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    top: 0%;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0,2s ease-in-out ;
+}
+
+nav a:hover {
+    color:black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    gap: 20px;
+}
+
+.konten {
+    flex: 2;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+aside {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    box-shadow: 2px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: auto;
+}
+
+aside img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+h2, h3 {
+    color: #ff5733;
+}
+
+.pembukaan{
+    box-shadow: 2px 4px 5px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    background: white;
+    flex: auto;
+}
